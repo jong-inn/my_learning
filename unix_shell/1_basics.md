@@ -144,6 +144,7 @@ $ cd -
 $ cd /
 ```
 <br>
+<br>
 
 ### __5) Concatenate and print words: cat__
 <br>
@@ -157,6 +158,37 @@ $ cat test.txt
 ```bash
 test1
 test2
+```
+<br>
+<br>
+
+### __6) Print out the head/tail of the file: head/tail__
+<br>
+
+&ensp;Input
+```bash
+# Put the number of lines through -n option.
+$ head -n 1 test.txt
+```
+
+&ensp;Output
+```bash
+test1
+```
+<br>
+<br>
+
+### __7) Print out: echo__
+<br>
+
+&ensp;Input
+```bash
+$ echo There are white spaces.
+```
+
+&ensp;Output
+```bash
+There are white spaces.
 ```
 <br>
 
