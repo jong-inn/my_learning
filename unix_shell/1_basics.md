@@ -1,4 +1,8 @@
 
+
+#### Sources : https://swcarpentry.github.io/shell-novice/
+<br>
+
 ---
 ## __The Shell__
 
