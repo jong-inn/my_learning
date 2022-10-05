@@ -145,4 +145,19 @@ $ cd /
 ```
 <br>
 
+### __5) Concatenate and print words: cat__
+<br>
+
+&ensp;Input
+```bash
+$ cat test.txt
+```
+
+&ensp;Output
+```bash
+test1
+test2
+```
+<br>
+
 ---
