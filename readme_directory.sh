@@ -1,9 +1,24 @@
 
+if test -f './README.md'
+then
+    rm README.md
+    touch README.md
+    echo '# Welcome to my learning materials
 
-rm test.md
-touch test.md
+### __Directories__' >> README.md
+else
+    touch README.md
+    echo '# Welcome to my learning materials
 
-tree ./ >> test.md
+### __Directories__' >> README.md
+fi
 
-string=$(<test.md)
-printf "$string" | tr '\n' '\n <br>' > test.md
+tree ./ >> README.md
+sed -i '' '$d
+' README.md
+
+sed -i '' '4i\
+```
+' README.md
+
+echo '```' >> README.md
