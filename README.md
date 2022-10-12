@@ -10,6 +10,10 @@
     ├── 2_files.md
     ├── 3_pipes_filters.md
     ├── 4_loops.md
-    └── 5_shell_scripts.md
+    ├── 5_shell_scripts.md
+    ├── middle.sh
+    ├── sample.txt
+    ├── sorted.sh
+    └── species.sh
 
 ```

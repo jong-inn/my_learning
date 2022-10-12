@@ -24,11 +24,11 @@ fi
 tree ./ >> README.md
 # delete summary sentence
 sed -i '' '$d
-' README.md
+' README.md # sed in mac os.
 
 # add ``` to make tree as a code block
 sed -i '' '4i\
 ```
-' README.md
+' README.md # sed in mac os.
 
 echo '```' >> README.md
