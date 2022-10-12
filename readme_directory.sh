@@ -1,3 +1,5 @@
+# Make a folder structure in README.md file using tree whenever directories are updated.
+# Usage: bash readme_directory.sh
 
 # check whether README.md exists
 if test -f './README.md'
