@@ -11,9 +11,12 @@
     ├── 3_pipes_filters.md
     ├── 4_loops.md
     ├── 5_shell_scripts.md
-    ├── middle.sh
+    ├── 6_finding_things.md
+    ├── haiku.txt
     ├── sample.txt
-    ├── sorted.sh
-    └── species.sh
+    └── shell_script
+        ├── middle.sh
+        ├── sorted.sh
+        └── species.sh
 
 ```
