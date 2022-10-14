@@ -21,13 +21,12 @@ def reverse(arr):
         start_idx += 1
         end_idx -= 1
 
+    return arr
 
 if __name__ == '__main__':
 
     n = [-3, 0, 3]
-    reverse(n)
-    print(n)
+    print(reverse(n))
 
     n = [1, 2, 3, 4]
-    reverse(n)
-    print(n)
+    print(reverse(n))
