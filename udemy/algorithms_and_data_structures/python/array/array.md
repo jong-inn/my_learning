@@ -34,12 +34,22 @@
 
 * [4] Removing item from arbitrary position: We usually do not know the index of the item we wan to remove - first we have to find the item in __O(N)__ running time then remove the item in __O(1)__ and finally have to shift the other items in __O(N)__
 
+<br>
+
 ### __3) Advantages and Disadvantages__
 
 * Advantages 1: The best feature of arrays is random access: We can access arbitrary items extremely fast with indexes
+
 * Advantages 2: Quite an easy data structure: Easy to understand and easy to implement as well
+
 * Advantages 3: Arrays are fast data structures in the main
+
 * Advantages 4: Use arrays when you want to manipulate the last items of the data structure or you want to access items with known indexes
+
 * Disadvantage 1: We have to know the number of items we want to store at compile-time: So it is not a dynamic data structure
+
 * Disadvantage 2: Since it is not dynamic: Whenever the data structure is full, we have to resize it in __O(N)__ linear running time
+
 * Disadvantage 3: We usually can not store items with different types in an array – of course Python is exception
+
+---
