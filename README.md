@@ -16,6 +16,9 @@
 │           │   ├── ReverseInteger.py
 │           │   └── array.md
 │           └── linked_lists
+│               ├── LinkedList.py
+│               ├── LinkedListMiddleNode.py
+│               ├── ReverseLinkedList.py
 │               └── linked_lists.md
 └── unix_shell
     ├── 1_basics.md
