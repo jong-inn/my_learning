@@ -15,11 +15,17 @@
 │           │   ├── ReverseArray.py
 │           │   ├── ReverseInteger.py
 │           │   └── array.md
-│           └── linked_lists
-│               ├── LinkedList.py
-│               ├── LinkedListMiddleNode.py
-│               ├── ReverseLinkedList.py
-│               └── linked_lists.md
+│           ├── doubly_linked_list
+│           │   ├── DoublyLinkedList.py
+│           │   └── doubly_linked_list.md
+│           ├── linked_lists
+│           │   ├── LinkedList.py
+│           │   ├── LinkedListMiddleNode.py
+│           │   ├── ReverseLinkedList.py
+│           │   └── linked_lists.md
+│           └── stack
+│               ├── Stack.py
+│               └── stack.md
 └── unix_shell
     ├── 1_basics.md
     ├── 2_files.md
