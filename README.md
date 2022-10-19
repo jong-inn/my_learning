@@ -23,6 +23,9 @@
 │           │   ├── LinkedListMiddleNode.py
 │           │   ├── ReverseLinkedList.py
 │           │   └── linked_lists.md
+│           ├── queue
+│           │   ├── Queue.py
+│           │   └── queue.md
 │           └── stack
 │               ├── Stack.py
 │               └── stack.md
