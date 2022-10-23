@@ -16,6 +16,7 @@
 │           │   ├── ReverseInteger.py
 │           │   └── array.md
 │           ├── binary_search_tree
+│           │   ├── BinarySearchTree.py
 │           │   └── binary_search_tree.md
 │           ├── doubly_linked_list
 │           │   ├── DoublyLinkedList.py
