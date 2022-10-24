@@ -75,7 +75,7 @@ class BinarySearchTree:
                 if parent is not None:
                     if parent.left_node == node:
                         parent.left_node = node.right_node
-                    if parent.rightChild == node:
+                    if parent.right_node == node:
                         parent.right_node = node.right_node
                 else:
                     self.root = node.right_node
@@ -141,6 +141,9 @@ if __name__ == '__main__':
         
     for i in range(5000, 10000, 50):
         bst.insert(i)
+
+    for i in [0, 500, 100, 1000, 7000]:
+        bst.remove(i)
 
     bst.traverse()
     end_time = time.time()
