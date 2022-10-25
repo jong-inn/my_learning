@@ -15,6 +15,8 @@
 │           │   ├── ReverseArray.py
 │           │   ├── ReverseInteger.py
 │           │   └── array.md
+│           ├── avl_tree
+│           │   └── avl_tree.md
 │           ├── binary_search_tree
 │           │   ├── BinarySearchTree.py
 │           │   └── binary_search_tree.md
