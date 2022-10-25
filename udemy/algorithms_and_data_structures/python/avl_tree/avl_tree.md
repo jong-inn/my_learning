@@ -21,3 +21,7 @@
 * After every insertion and removal operations, we have to check whether the tree has become imbalanced or not
 
 * If the tree is imbalanced then we have to make rotations
+
+* height = max( left child’s height , right child’s height ) + 1
+
+* balance factor = left child's height - right child's height
