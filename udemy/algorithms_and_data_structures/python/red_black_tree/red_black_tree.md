@@ -46,4 +46,23 @@
 | deletion (removal) | $ O(logN) $  | $ O(N) $   |
 | search             | $ O(logN) $  | $ O(N) $   |
 
+### __4) Insertion Cases__
+<br>
+
+* Case 1
+
+![image](./red_black_tree_case1.png)
+
+* Case 2
+
+![image](./red_black_tree_case2.png)
+
+* Case 3
+
+![image](./red_black_tree_case3.png)
+
+* Case 4
+
+![image](./red_black_tree_case4.png)
+
 ---
