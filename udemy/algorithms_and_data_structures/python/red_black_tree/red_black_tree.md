@@ -49,20 +49,70 @@
 ### __4) Insertion Cases__
 <br>
 
-* Case 1
+* Case 1 __(before)__
 
 ![image](./red_black_tree_case1.png)
 
-* Case 2
+&ensp;&ensp; - The x node will be the root node
+<br>
+&ensp;&ensp; - And recolor the children of x to black
+<br>
+&ensp;&ensp; - We have to check the properties recursively starting with x up to the root node in $ O(logN) $ running time
+
+<br>
+
+* Case 1 __(after)__
+
+![image](./red_black_tree_case1_after.png)
+
+<br>
+
+* Case 2 __(before)__
 
 ![image](./red_black_tree_case2.png)
 
-* Case 3
+&ensp;&ensp; - We have to make a left/right rotation on the parent of node x
+<br>
+&ensp;&ensp; - We have to check the properties recursively starting with x up to the root node in $ O(logN) $ running time
+
+<br>
+
+* Case 2 __(after)__
+
+![image](./red_black_tree_case2_after.png)
+
+<br>
+
+* Case 3 __(before)__
 
 ![image](./red_black_tree_case3.png)
 
-* Case 4
+&ensp;&ensp; - We have to rotate the grandparent of node x to the right/left and recolor
+<br>
+&ensp;&ensp; - We have to check the properties recursively starting with x up to the root node in $ O(logN) $ running time
+
+<br>
+
+* Case 3 __(after)__
+
+![image](./red_black_tree_case3_after.png)
+
+<br>
+
+* Case 4 __(before)__
 
 ![image](./red_black_tree_case4.png)
+
+&ensp;&ensp; - We have to move node x to the grandparent and recolor the children of grandparent node
+<br>
+&ensp;&ensp; - We have to check the properties recursively starting with x up to the root node in $ O(logN) $ running time
+
+<br>
+
+* Case 4 __(after)__
+
+![image](./red_black_tree_case4_after.png)
+
+<br>
 
 ---
