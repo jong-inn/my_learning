@@ -50,3 +50,21 @@
 * There are indexes from root node and left to right
 
 * The node with index $ i $ has left child with index $ 2i+1 $ and right child with index $ 2i+2 $
+
+<br>
+
+### __3) Operations__
+<br>
+
+* Insertion: Insert a data at last position and compare recursivley with the parent node and swap with it if it violates properties of heaps
+
+* Removing: Remove the root node can be done in $ O(logN) $ running time
+
+* Removing: If we want to remove an arbitrary item, we have to find it in the array with $ O(N) $ linear search and then we can remove it in $ O(logN) $. So it takes $ O(N) $ time
+
+<br>
+
+### __4) Heapsort__
+<br>
+
+* 
