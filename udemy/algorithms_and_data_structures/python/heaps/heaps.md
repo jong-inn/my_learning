@@ -67,4 +67,16 @@
 ### __4) Heapsort__
 <br>
 
-* 
+* Heapsort is a comparison-based sorting algorithm
+
+* It is a bit slower in practice on most machines than a well-implemented quicksort
+
+* But it has the advantage of a more favorable $ O(NlogN) $ worst-case running time complexity
+
+* It does not need additional memory
+
+* But it is not a stable sort – which means it does not keep the relative order of items with same values
+
+* [1] We take the root node and swap it with the last item
+
+* [2] Do heapify starting with the root node because the heap properties may be violated
