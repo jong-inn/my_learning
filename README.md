@@ -17,6 +17,7 @@
 │           │   └── array.md
 │           ├── avl_tree
 │           │   ├── AVLTree.py
+│           │   ├── AVLTree_2.py
 │           │   └── avl_tree.md
 │           ├── binary_search_tree
 │           │   ├── BinarySearchTree.py
@@ -24,6 +25,9 @@
 │           ├── doubly_linked_list
 │           │   ├── DoublyLinkedList.py
 │           │   └── doubly_linked_list.md
+│           ├── heaps
+│           │   ├── Heaps.py
+│           │   └── heaps.md
 │           ├── linked_lists
 │           │   ├── LinkedList.py
 │           │   ├── LinkedListMiddleNode.py
@@ -32,9 +36,26 @@
 │           ├── queue
 │           │   ├── Queue.py
 │           │   └── queue.md
+│           ├── red_black_tree
+│           │   ├── RedBlackTree.py
+│           │   ├── red_black_tree.md
+│           │   ├── red_black_tree_case1.png
+│           │   ├── red_black_tree_case1_after.png
+│           │   ├── red_black_tree_case2.png
+│           │   ├── red_black_tree_case2_after.png
+│           │   ├── red_black_tree_case3.png
+│           │   ├── red_black_tree_case3_after.png
+│           │   ├── red_black_tree_case4.png
+│           │   └── red_black_tree_case4_after.png
 │           └── stack
 │               ├── Stack.py
 │               └── stack.md
+├── umn_courses
+│   └── machine_learning_fundamentals
+│       └── multilayers_perceptron
+│           ├── MyCifarNet.py
+│           ├── cifarnet_script.py
+│           └── pytorch_basic.py
 └── unix_shell
     ├── 1_basics.md
     ├── 2_files.md
