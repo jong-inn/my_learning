@@ -79,5 +79,40 @@ class Heap:
             self.heap[index], self.heap[largest_index] = self.heap[largest_index], self.heap[index]
             self.fix_down(largest_index)
         
+    def heap_sort(self):
         
+        for _ in range(self.heap_size):
+            max_item = self.poll()
+            print(max_item)
+            
+if __name__ == "__main__":
+    
+    heap = Heap()
+    heap.insert(13)
+    heap.insert(-2)
+    heap.insert(0)
+    heap.insert(8)
+    heap.insert(1)
+    heap.insert(-5)
+    heap.insert(99)
+    
+    print(heap.heap)
+    heap.heap_sort()
+    
+    import heapq
+    
+    nums = [4, 7, 3, -2, 1, 0]
+    heap = []
+    
+    heapq.heapify(nums)
+    
+    print(nums)
+    
+    for value in nums:
+        heapq.heappush(heap, value)
         
+    print(heap)
+    
+    while heap:
+        print(heapq.heappop(heap))
+    
