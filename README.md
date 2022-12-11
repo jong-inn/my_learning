@@ -52,6 +52,10 @@
 │               └── stack.md
 ├── umn_courses
 │   └── machine_learning_fundamentals
+│       ├── decision_tree
+│       │   └── MyDecisionTree.py
+│       ├── kernel_machines
+│       │   └── MyKernelPerceptron.py
 │       └── multilayers_perceptron
 │           ├── MyCifarNet.py
 │           ├── cifarnet_script.py
